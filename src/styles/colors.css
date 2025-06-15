@@ -73,6 +73,8 @@
   --color-purple-surface-dark: ;
   --color-on-purple-surface-light: ;
   --color-on-purple-surface-dark: ;
+  --color-on-purple-surface-emphasis-light: ;
+  --color-on-purple-surface-emphasis-dark: ;
   --color-purple-surface-variant-light: ;
   --color-purple-surface-variant-dark: ;
   --color-on-purple-surface-variant-light: ;
@@ -91,6 +93,8 @@
   --color-yellow-surface-dark: ;
   --color-on-yellow-surface-light: ;
   --color-on-yellow-surface-dark: ;
+  --color-on-yellow-surface-emphasis-light: ;
+  --color-on-yellow-surface-emphasis-dark: ;
   --color-yellow-surface-variant-light: ;
   --color-yellow-surface-variant-dark: ;
   --color-on-yellow-surface-variant-light: ;
@@ -143,16 +147,172 @@
   --color-graph-red-badge-dark: ;
   --color-on-graph-red-badge-light: ;
   --color-on-graph-red-badge-dark: ;
+  --color-graph-overlay-light: ;
+  --color-graph-overlay-dark: ;
+  --color-graph-overlay-shadow-light: ;
+  --color-graph-overlay-shadow-dark: ;
+  --color-graph-overlay-icon-background-light: ;
+  --color-graph-overlay-icon-background-dark: ;
+  --color-graph-overlay-icon-light: ;
+  --color-graph-overlay-icon-dark: ;
+
+  --color-button-light: ;
+  --color-button-dark: ;
+  --color-on-button-light: ;
+  --color-on-button-dark: ;
+  --color-button-cursor-light: ;
+  --color-button-cursor-dark: ;
+
+  --color-chat-light: ;
+  --color-chat-dark: ;
+  --color-chat-bubble-user-light: ;
+  --color-chat-bubble-user-dark: ;
+  --color-on-chat-bubble-user-light: ;
+  --color-on-chat-bubble-user-dark: ;
+  --color-chat-bubble-ai-light: ;
+  --color-chat-bubble-ai-dark: ;
+  --color-on-chat-bubble-ai-light: ;
+  --color-on-chat-bubble-ai-dark: ;
+  --color-chat-overlay-background-light: ;
+  --color-chat-overlay-background-dark: ;
+  --color-chat-overlay-shadow-light: ;
+  --color-chat-overlay-shadow-dark: ;
+  --color-chat-overlay-icon-background-light: ;
+  --color-chat-overlay-icon-background-dark: ;
+  --color-chat-overlay-icon-light: ;
+  --color-chat-overlay-icon-dark: ;
 }
 
 @media screen and (prefers-color-scheme: light) {
   :root {
-    
+    --color-background: var(--color-background-light);
+
+    --color-purple-surface: var(--color-purple-surface-light);
+    --color-on-purple-surface: var(--color-on-purple-surface-light);
+    --color-on-purple-surface-emphasis: var(--color-on-purple-surface-emphasis-light);
+    --color-purple-surface-variant: var(--color-purple-surface-variant-light);
+    --color-on-purple-surface-variant: var(--color-on-purple-surface-variant-light);
+
+    --color-neutral-surface: var(--color-neutral-surface-light);
+    --color-on-neutral-surface: var(--color-on-neutral-surface-light);
+    --color-neutral-surface-variant: var(--color-neutral-surface-variant-light);
+    --color-on-neutral-surface-variant: var(--color-on-neutral-surface-variant-light);
+
+    --color-yellow-surface: var(--color-yellow-surface-light);
+    --color-on-yellow-surface: var(--color-on-yellow-surface-light);
+    --color-on-yellow-surface-emphasis: var(--color-on-yellow-surface-emphasis-light);
+    --color-yellow-surface-variant: var(--color-yellow-surface-variant-light);
+    --color-on-yellow-surface-variant: var(--color-on-yellow-surface-variant-light);
+
+    --color-rating-star-empty: var(--color-rating-star-empty-light);
+    --color-rating-star-full: var(--color-rating-star-full-light);
+
+    --color-social-background: var(--color-social-background-light);
+    --color-social-shadow: var(--color-social-shadow-light);
+    --color-on-social-background: var(--color-on-social-background-light);
+    --color-on-social-background-variant: var(--color-on-social-background-variant-light);
+    --color-social-logo-background: var(--color-social-logo-background-light);
+    --color-social-logo: var(--color-social-logo-light);
+
+    --color-calendar-header: var(--color-calendar-header-light);
+    --color-on-calendar-header: var(--color-on-calendar-header-light);
+    --color-calendar-body: var(--color-calendar-body-light);
+    --color-calendar-check-mark: var(--color-calendar-check-mark-light);
+    --color-calendar-square: var(--color-calendar-square-light);
+
+    --color-graph: var(--color-graph-light);
+    --color-on-graph: var(--color-on-graph-light);
+    --color-on-graph-variant: var(--color-on-graph-variant-light);
+    --color-graph-separator: var(--color-graph-separator-light);
+    --color-graph-stick: var(--color-graph-stick-light);
+    --color-graph-green-badge: var(--color-graph-green-badge-light);
+    --color-on-graph-green-badge: var(--color-on-graph-green-badge-light);
+    --color-graph-red-badge: var(--color-graph-red-badge-light);
+    --color-on-graph-red-badge: var(--color-on-graph-red-badge-light);
+    --color-graph-overlay: var(--color-graph-overlay-light);
+    --color-graph-overlay-shadow: var(--color-graph-overlay-shadow-light);
+    --color-graph-overlay-icon-background: var(--color-graph-overlay-icon-background-light);
+    --color-graph-overlay-icon: var(--color-graph-overlay-icon-light);
+
+    --color-button: var(--color-button-light);
+    --color-on-button: var(--color-on-button-light);
+    --color-button-cursor: var(--color-button-cursor-light);
+
+    --color-chat: var(--color-chat-light);
+    --color-chat-bubble-user: var(--color-chat-bubble-user-light);
+    --color-on-chat-bubble-user: var(--color-on-chat-bubble-user-light);
+    --color-chat-bubble-ai: var(--color-chat-bubble-ai-light);
+    --color-on-chat-bubble-ai: var(--color-on-chat-bubble-ai-light);
+    --color-chat-overlay-background: var(--color-chat-overlay-background-light);
+    --color-chat-overlay-shadow: var(--color-chat-overlay-shadow-light);
+    --color-chat-overlay-icon-background: var(--color-chat-overlay-icon-background-light);
+    --color-chat-overlay-icon: var(--color-chat-overlay-icon-light);
   }
 }
 
 @media screen and (prefers-color-scheme: dark) {
   :root {
-    
+    --color-background: var(--color-background-dark);
+
+    --color-purple-surface: var(--color-purple-surface-dark);
+    --color-on-purple-surface: var(--color-on-purple-surface-dark);
+    --color-on-purple-surface-emphasis: var(--color-on-purple-surface-emphasis-dark);
+    --color-purple-surface-variant: var(--color-purple-surface-variant-dark);
+    --color-on-purple-surface-variant: var(--color-on-purple-surface-variant-dark);
+
+    --color-neutral-surface: var(--color-neutral-surface-dark);
+    --color-on-neutral-surface: var(--color-on-neutral-surface-dark);
+    --color-neutral-surface-variant: var(--color-neutral-surface-variant-dark);
+    --color-on-neutral-surface-variant: var(--color-on-neutral-surface-variant-dark);
+
+    --color-yellow-surface: var(--color-yellow-surface-dark);
+    --color-on-yellow-surface: var(--color-on-yellow-surface-dark);
+    --color-on-yellow-surface-emphasis: var(--color-on-yellow-surface-emphasis-dark);
+    --color-yellow-surface-variant: var(--color-yellow-surface-variant-dark);
+    --color-on-yellow-surface-variant: var(--color-on-yellow-surface-variant-dark);
+
+    --color-rating-star-empty: var(--color-rating-star-empty-dark);
+    --color-rating-star-full: var(--color-rating-star-full-dark);
+
+    --color-social-background: var(--color-social-background-dark);
+    --color-social-shadow: var(--color-social-shadow-dark);
+    --color-on-social-background: var(--color-on-social-background-dark);
+    --color-on-social-background-variant: var(--color-on-social-background-variant-dark);
+    --color-social-logo-background: var(--color-social-logo-background-dark);
+    --color-social-logo: var(--color-social-logo-dark);
+
+    --color-calendar-header: var(--color-calendar-header-dark);
+    --color-on-calendar-header: var(--color-on-calendar-header-dark);
+    --color-calendar-body: var(--color-calendar-body-dark);
+    --color-calendar-check-mark: var(--color-calendar-check-mark-dark);
+    --color-calendar-square: var(--color-calendar-square-dark);
+
+    --color-graph: var(--color-graph-dark);
+    --color-on-graph: var(--color-on-graph-dark);
+    --color-on-graph-variant: var(--color-on-graph-variant-dark);
+    --color-graph-separator: var(--color-graph-separator-dark);
+    --color-graph-stick: var(--color-graph-stick-dark);
+    --color-graph-green-badge: var(--color-graph-green-badge-dark);
+    --color-on-graph-green-badge: var(--color-on-graph-green-badge-dark);
+    --color-graph-red-badge: var(--color-graph-red-badge-dark);
+    --color-on-graph-red-badge: var(--color-on-graph-red-badge-dark);
+    --color-graph-overlay: var(--color-graph-overlay-dark);
+    --color-graph-overlay-shadow: var(--color-graph-overlay-shadow-dark);
+    --color-graph-overlay-icon-background: var(--color-graph-overlay-icon-background-dark);
+    --color-graph-overlay-icon: var(--color-graph-overlay-icon-dark);
+
+    --color-button: var(--color-button-dark);
+    --color-on-button: var(--color-on-button-dark);
+    --color-button-cursor: var(--color-button-cursor-dark);
+
+    --color-chat: var(--color-chat-dark);
+    --color-chat-bubble-user: var(--color-chat-bubble-user-dark);
+    --color-on-chat-bubble-user: var(--color-on-chat-bubble-user-dark);
+    --color-chat-bubble-ai: var(--color-chat-bubble-ai-dark);
+    --color-on-chat-bubble-ai: var(--color-on-chat-bubble-ai-dark);
+    --color-chat-overlay-background: var(--color-chat-overlay-background-dark);
+    --color-chat-overlay-shadow: var(--color-chat-overlay-shadow-dark);
+    --color-chat-overlay-icon-background: var(--color-chat-overlay-icon-background-dark);
+    --color-chat-overlay-icon: var(--color-chat-overlay-icon-dark);
   }
 }
