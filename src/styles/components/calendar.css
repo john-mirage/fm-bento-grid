@@ -1,0 +1,45 @@
+.calendar {
+  width: 100%;
+  max-width: 208px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.calendar__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: var(--color-purple-500);
+}
+
+.calendar__body {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.75rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.calendar__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.calendar__icon {
+  width: 20px;
+  height: 21px;
+}
+
+.calendar__square {
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 0.25rem;
+  background-color: black;
+}

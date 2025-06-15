@@ -1,0 +1,23 @@
+.page {
+  background-color: var(--color-background);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.page__icons {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .page {
+    padding-top: 5.188rem;
+    padding-bottom: 5.188rem;
+  }
+}

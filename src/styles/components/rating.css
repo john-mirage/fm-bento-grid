@@ -1,0 +1,76 @@
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  color: var(--color-rating-star-empty);
+}
+
+.rating__star {
+  width: 27px;
+  height: 26px;
+  margin: 0.188rem;
+  animation-name: tada, filling;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.rating__star--1 {
+  animation-delay: 0s;
+}
+
+.rating__star--2 {
+  animation-delay: 0.5s;
+}
+
+.rating__star--3 {
+  animation-delay: 1s;
+}
+
+.rating__star--4 {
+  animation-delay: 1.5s;
+}
+
+.rating__star--5 {
+  animation-delay: 2s;
+}
+
+@keyframes filling {
+  from {
+    color: var(--color-rating-star-empty);
+  }
+  
+  to {
+    color: var(--color-rating-star-full);
+  }
+}
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}

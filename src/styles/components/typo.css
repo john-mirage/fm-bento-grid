@@ -1,0 +1,63 @@
+.typo {
+  font-family: var(--font-stack);
+}
+
+.typo--preset-1 {
+  font-weight: var(--font-preset-1-sm-font-weight);
+  font-size: var(--font-preset-1-sm-font-size);
+  line-height: var(--font-preset-1-sm-line-height);
+  letter-spacing: var(--font-preset-1-sm-letter-spacing);
+}
+
+.typo--preset-3 {
+  font-weight: var(--font-preset-3-sm-font-weight);
+  font-size: var(--font-preset-3-sm-font-size);
+  line-height: var(--font-preset-3-sm-line-height);
+  letter-spacing: var(--font-preset-3-sm-letter-spacing);
+}
+
+.typo--social-name {
+  font-weight: var(--font-social-name-font-weight);
+  font-size: var(--font-social-name-font-size);
+  line-height: var(--font-social-name-line-height);
+  letter-spacing: var(--font-social-name-letter-spacing);
+}
+
+.typo--social-followers {
+  font-weight: var(--font-social-followers-font-weight);
+  font-size: var(--font-social-followers-font-size);
+  line-height: var(--font-social-followers-line-height);
+  letter-spacing: var(--font-social-followers-letter-spacing);
+}
+
+@media screen and (min-width: 768px) {
+  .typo--preset-1 {
+    font-weight: var(--font-preset-1-md-font-weight);
+    font-size: var(--font-preset-1-md-font-size);
+    line-height: var(--font-preset-1-md-line-height);
+    letter-spacing: var(--font-preset-1-md-letter-spacing);
+  }
+
+  .typo--preset-3 {
+    font-weight: var(--font-preset-3-md-font-weight);
+    font-size: var(--font-preset-3-md-font-size);
+    line-height: var(--font-preset-3-md-line-height);
+    letter-spacing: var(--font-preset-3-md-letter-spacing);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .typo--preset-1 {
+    font-weight: var(--font-preset-1-lg-font-weight);
+    font-size: var(--font-preset-1-lg-font-size);
+    line-height: var(--font-preset-1-lg-line-height);
+    letter-spacing: var(--font-preset-1-lg-letter-spacing);
+  }
+
+  .typo--preset-3 {
+    font-weight: var(--font-preset-3-lg-font-weight);
+    font-size: var(--font-preset-3-lg-font-size);
+    line-height: var(--font-preset-3-lg-line-height);
+    letter-spacing: var(--font-preset-3-lg-letter-spacing);
+  }
+}

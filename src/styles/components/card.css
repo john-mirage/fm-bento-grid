@@ -1,0 +1,119 @@
+.card {
+  border-radius: 0.625rem;
+}
+
+.card--1 {
+  background-color: var(--color-surface-purple);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.card--2 {
+  background-color: var(--color-surface-white);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card--3 {
+  background-color: var(--color-surface-yellow);
+  padding-top: 1rem;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  overflow: hidden;
+}
+
+.card--4 {
+  background-color: var(--color-surface-light-purple);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card--5 {
+  background-color: var(--color-surface-purple);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2.625rem;
+  padding-right: 2.625rem;
+}
+
+.card--6 {
+  background-color: var(--color-surface-white);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.card--7 {
+  background-color: var(--color-surface-light-yellow);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.card--8 {
+  background-color: var(--color-surface-yellow);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.card--1 .card__title {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--color-on-surface-purple);
+}
+
+.card--1 .card__subtitle {
+  text-align: center;
+  color: var(--color-on-surface-purple);
+}
+
+.card--1 .card__title-emphasis {
+  color: var(--color-on-surface-purple-emphasis);
+}
+
+.card--1 .card__rating {
+  margin-bottom: 0.5rem;
+}
+
+.card--2 .card__social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.card--2 .card__title {
+  text-align: center;
+  color: var(--color-on-surface-white);
+}
+
+.card--3 .card__title {
+  margin-bottom: 1rem;
+}
+
+.card--3 .card__calendar {
+  margin-bottom: -2rem;
+}
+
+@media screen and (min-width: 375px) {
+  .card--2 .card__social {
+    flex-direction: row;
+  }
+
+  .card--2 .card__title {
+    text-align: left;
+  }
+}
